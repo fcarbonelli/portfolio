@@ -1,6 +1,6 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Project", link: "#about" },
+  { name: "Business", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -8,8 +8,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
+    title:
+      "Instantly create or discover one-of-a-kind images crafted by cutting-edge AI",
+    description: "AI-Generated Masterpieces",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Own your artwork with confidence on the Stellar Network.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Buyers can pay in their preferred currency.",
+    description: "Frictionless Payments",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Explore a vast library or use your own prompts.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -173,29 +174,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "AI-Generated Image Marketplace",
+    desc: "Discover and purchase unique, high-quality AI-generated images for your projects. Our marketplace offers a wide variety of styles and themes to suit any brand's needs.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp3.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance AI Designer Hiring",
+    desc: "Hire skilled AI designers for custom design projects, ensuring you get the perfect visuals tailored to your brand's identity.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Cryptocurrency Payments",
+    desc: "njoy the convenience and security of cryptocurrency transactions (AGREGAR INFO DE STELLAR) Pay for images and design services using popular cryptocurrencies, making the payment process smooth and efficient.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "User-Friendly Interface",
+    desc: "Navigate our platform with ease thanks to an intuitive and user-friendly interface. Whether you're purchasing images or hiring designers, our streamlined process ensures a seamless experience from start to finish.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
