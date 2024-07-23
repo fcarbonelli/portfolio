@@ -24,7 +24,7 @@ export const InfiniteMovingCards = ({
   const scrollerRef = React.useRef<HTMLUListElement>(null);
 
   useEffect(() => {
-    addAnimation();
+    //addAnimation();
   }, []);
   const [start, setStart] = useState(false);
   function addAnimation() {
@@ -74,9 +74,14 @@ export const InfiniteMovingCards = ({
       ref={containerRef}
       className={cn(
         // max-w-7xl to w-screen
-        "scroller relative z-20 w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }} // Add this style to center the div
     >
       <ul
         ref={scrollerRef}
