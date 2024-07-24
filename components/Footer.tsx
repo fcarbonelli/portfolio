@@ -17,11 +17,11 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to unleash the <span className="text-purple">power</span> of AI
-          art?
+          Ready to <span className="text-purple">unlock</span> the power of AI
+          designs?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Join the AI art revolution. Become a part of our thriving community!
+          Join the AI design revolution today. Become part of our community
         </p>
         {/*}<a href="mailto:contact@jsmastery.pro">
           <MagicButton

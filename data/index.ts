@@ -8,8 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title:
-      "Instantly create or discover one-of-a-kind images crafted by cutting-edge AI",
+    title: "Hire AI expert designers to meet all your design needs.",
     description: "AI-Generated Masterpieces",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Own your artwork with confidence on the Stellar Network.",
+    title: "Discover one-of-a-kind AI images for your project.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Buyers can pay in their preferred currency.",
-    description: "Frictionless Payments",
+    title: "Buyers can pay in their preferred currency using Stellar.",
+    description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Reach a vast audience of collectors and art enthusiasts worldwide.",
+    title: "Create your profile and share your AI designs.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,8 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title:
-      "Connect and collaborate with other AI artists and industry leaders.",
+    title: "Connect and collaborate with top-tier brands and industry leaders.",
     description: "For AI Designers",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -61,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Ready to unleash the power of AI art?",
+    title: "Ready to unleash the power of AI designs?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -109,7 +107,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Stellar wasn't just picked out of a hat. We wanted a platform that mirrored the creativity of AI art itself.  That's why we built our marketplace on the Stellar network. It's blazing fast, secure, and lets artists and collectors transact globally without any limitations.  Imagine: you create a masterpiece, and within seconds, a collector on the other side of the world can buy it using their local currency.  Pretty stellar, wouldn't you say?",
+      "Stellar facilitates international payments by integrating financial systems into a single, interoperable network. This makes it ideal for our AI image marketplace, where artists can sell their AI designs using cryptocurrency, and top-tier brands can hire AI designers for their needs. Pretty stellar, wouldn’t you say?",
     name: "Juan Paradela",
     title: "CEO of Pixel AI",
   },
