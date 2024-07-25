@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title: "Hire AI expert designers to meet all your design needs.",
-    description: "AI-Generated Masterpieces",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Buyers can pay in their preferred currency using Stellar.",
+    title: "Pay in your preferred currency using Stellar.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",

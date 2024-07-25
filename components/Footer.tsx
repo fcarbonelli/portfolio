@@ -21,7 +21,7 @@ const Footer = () => {
           designs?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Join the AI design revolution today. Become part of our community
+          Join the AI design revolution. Become part of our community!
         </p>
         {/*}<a href="mailto:contact@jsmastery.pro">
           <MagicButton

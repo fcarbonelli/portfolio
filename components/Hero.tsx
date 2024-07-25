@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Unleash your creativity by selling AI-generated designs and offering your services to top-tier brands!"
+            words="Unleash your creativity by selling AI-generated images and offering your design services to top-tier brands!"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 

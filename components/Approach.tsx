@@ -5,9 +5,9 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section className="w-full py-5">
       <h1 className="heading">
-        Business <span className="text-purple">Plan</span>
+        Road<span className="text-purple">map</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
@@ -58,6 +58,19 @@ const Approach = () => {
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="Planning & Strategy"
+          icon={<AceternityIcon order="Phase 1" />}
+          des="We'll collaborate to map out your website's goals, target audience, 
+          and key functionalities. We'll discuss things like site structure, 
+          navigation, and content requirements."
+        >
+          <CanvasRevealEffect
+            animationSpeed={5.1}
+            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
+            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
           />
         </Card>
       </div>
