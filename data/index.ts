@@ -164,7 +164,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Cryptocurrency Payments",
-    desc: "njoy the convenience and security of cryptocurrency transactions (AGREGAR INFO DE STELLAR) Pay for images and design services using popular cryptocurrencies, making the payment process smooth and efficient.",
+    desc: "Enjoy the convenience and security of cryptocurrency transactions in the Stellar Network Pay for images and design services using popular cryptocurrencies, making the payment process smooth and efficient.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp1.svg",
   },
