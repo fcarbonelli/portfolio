@@ -66,7 +66,7 @@ const Hero = () => {
             Welcome to the first AI-Generated Image Marketplace.
           </p>
 
-          <a href="#about">
+          <a href="#project">
             <MagicButton
               title="Learn More"
               icon={<FaRightLong />}

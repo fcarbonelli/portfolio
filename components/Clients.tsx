@@ -7,7 +7,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="pt-20">
+    <section id="stellar" className="pt-20">
       <h1 className="heading">
         Why the
         <span className="text-purple"> Stellar Network</span>

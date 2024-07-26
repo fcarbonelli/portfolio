@@ -5,19 +5,19 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-5">
+    <section className="w-full py-5" id="business">
       <h1 className="heading">
-        Road<span className="text-purple">map</span>
+        Product <span className="text-purple">Roadmap</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Q1: Initial Development"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Validate the concept through surveys and interviews with marketing teams in the Web3 industry.
+              Design initial platform wireframes and user interface (UI).
+              Develop a prototype to gather feedback from early adopters."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +26,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Q2: Beta Launch and User Feedback"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="Release a beta version of the platform to a select group of users.
+Optimize payment processes for cryptocurrency transactions using the Stellar network.
+Design infrastructure to identify AI-generated images, ensuring only AI-created designs are featured on the platform."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +48,11 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Q3 Expansion and feature development"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Scalability: Enhance infrastructure to manage increased traffic and transactions.
+Analytics and Reporting: Implement tools for users to track the performance and effectiveness of their designs.
+Marketing Campaigns: Launch community channels and targeted marketing campaigns to attract AI designers and brands."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -61,11 +61,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Q4: Optimization and Future Planning"
+          icon={<AceternityIcon order="Phase 4" />}
+          des="Premium Features: Introduce premium features for advanced users.
+Market Exploration: Investigate new markets and user segments.
+AI Designer Collaboration: Allow AI designers to collaborate and sell their services together, adding greater diversity for brands looking to purchase."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
