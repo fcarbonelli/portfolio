@@ -107,7 +107,7 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Stellar facilitates international payments by integrating financial systems into a single, interoperable network. This makes it ideal for our AI image marketplace, where artists can sell their AI designs using cryptocurrency, and top-tier brands can hire AI designers for their needs. Pretty stellar, wouldn’t you say?",
+      "Stellar facilitates international payments by integrating financial systems into a single, interoperable network. This makes it ideal for our AI image marketplace, where freelance designers can sell their AI designs and receive payments in cryptocurrency, and where top-tier brands can hire AI designers for their marketing needs. Pretty stellar, wouldn’t you say?",
     name: "Juan Paradela",
     title: "CEO of Pixel AI",
   },

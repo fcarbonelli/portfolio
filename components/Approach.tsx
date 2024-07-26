@@ -26,8 +26,8 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Q1: Initial Development"
-          icon={<AceternityIcon order="Phase 1" />}
+          title="Initial Development"
+          icon={<AceternityIcon order="Q1" />}
           des={
             <div>
               {sentences.map((sentence, index) => (
@@ -39,12 +39,12 @@ const Approach = () => {
           <CanvasRevealEffect
             animationSpeed={5.1}
             // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden opacity-1"
           />
         </Card>
         <Card
-          title="Q2: Beta Launch and User Feedback"
-          icon={<AceternityIcon order="Phase 2" />}
+          title="Beta Launch and User Feedback"
+          icon={<AceternityIcon order="Q2" />}
           des={
             <div>
               {sentences2.map((sentence, index) => (
@@ -69,8 +69,8 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Q3 Expansion and feature development"
-          icon={<AceternityIcon order="Phase 3" />}
+          title="Expansion and feature development"
+          icon={<AceternityIcon order="Q3" />}
           des={
             <div>
               {sentences3.map((sentence, index) => (
@@ -86,8 +86,8 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Q4: Optimization and Future Planning"
-          icon={<AceternityIcon order="Phase 4" />}
+          title="Optimization and Future Planning"
+          icon={<AceternityIcon order="Q4" />}
           des={
             <div>
               {sentences4.map((sentence, index) => (
