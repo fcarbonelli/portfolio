@@ -9,7 +9,7 @@ const Clients = () => {
   return (
     <section id="stellar" className="pt-20">
       <h1 className="heading">
-        Why the
+        Why We Build on
         <span className="text-purple"> Stellar Network</span>
       </h1>
 
