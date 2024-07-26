@@ -51,7 +51,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["USDT", "EUR", "USDC"];
+  const leftLists = ["USDT", "USD", "USDC"];
   const rightLists = ["Doge", "Ethereum", "Bitcoin"];
 
   const [copied, setCopied] = useState(false);

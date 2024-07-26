@@ -3,7 +3,20 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
+const q1 =
+  "Validate the concept through surveys and interviews with marketing teams in the Web3 industry.Design initial platform wireframes and user interface (UI).Develop a prototype to gather feedback from early adopters";
+const q2 =
+  "Release a beta version of the platform to a select group of users.Optimize payment processes for cryptocurrency transactions using the Stellar network.Design infrastructure to identify AI-generated images, ensuring only AI-created designs are featured on the platform";
+const q3 =
+  "Scalability: Enhance infrastructure to manage increased traffic and transactions. Analytics and Reporting: Implement tools for users to track the performance and effectiveness of their designs. Marketing Campaigns: Launch community channels and targeted marketing campaigns to attract AI designers and brands";
+const q4 =
+  "Premium Features: Introduce premium features for advanced users. Designer Rating System: Implement a rating and review system for designers. AI Designer Collaboration: Allow AI designers to collaborate and sell their services together, adding greater diversity for brands looking to purchase";
+
 const Approach = () => {
+  const sentences = q1.split(".");
+  const sentences2 = q2.split(".");
+  const sentences3 = q3.split(".");
+  const sentences4 = q4.split(".");
   return (
     <section className="w-full py-5" id="business">
       <h1 className="heading">
@@ -15,9 +28,13 @@ const Approach = () => {
         <Card
           title="Q1: Initial Development"
           icon={<AceternityIcon order="Phase 1" />}
-          des="Validate the concept through surveys and interviews with marketing teams in the Web3 industry.
-              Design initial platform wireframes and user interface (UI).
-              Develop a prototype to gather feedback from early adopters."
+          des={
+            <div>
+              {sentences.map((sentence, index) => (
+                <p key={index}> - {sentence.trim()}</p>
+              ))}
+            </div>
+          }
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +45,13 @@ const Approach = () => {
         <Card
           title="Q2: Beta Launch and User Feedback"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Release a beta version of the platform to a select group of users.
-Optimize payment processes for cryptocurrency transactions using the Stellar network.
-Design infrastructure to identify AI-generated images, ensuring only AI-created designs are featured on the platform."
+          des={
+            <div>
+              {sentences2.map((sentence, index) => (
+                <p key={index}> - {sentence.trim()}</p>
+              ))}
+            </div>
+          }
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,9 +71,13 @@ Design infrastructure to identify AI-generated images, ensuring only AI-created 
         <Card
           title="Q3 Expansion and feature development"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Scalability: Enhance infrastructure to manage increased traffic and transactions.
-Analytics and Reporting: Implement tools for users to track the performance and effectiveness of their designs.
-Marketing Campaigns: Launch community channels and targeted marketing campaigns to attract AI designers and brands."
+          des={
+            <div>
+              {sentences3.map((sentence, index) => (
+                <p key={index}> - {sentence.trim()}</p>
+              ))}
+            </div>
+          }
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -63,9 +88,13 @@ Marketing Campaigns: Launch community channels and targeted marketing campaigns 
         <Card
           title="Q4: Optimization and Future Planning"
           icon={<AceternityIcon order="Phase 4" />}
-          des="Premium Features: Introduce premium features for advanced users.
-Designer Rating System: Implement a rating and review system for designers.
-AI Designer Collaboration: Allow AI designers to collaborate and sell their services together, adding greater diversity for brands looking to purchase."
+          des={
+            <div>
+              {sentences4.map((sentence, index) => (
+                <p key={index}> - {sentence.trim()}</p>
+              ))}
+            </div>
+          }
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -84,13 +113,13 @@ const Card = ({
   title,
   icon,
   children,
-  // add this one for the desc
+  // change the type of des from string to React.ReactNode
   des,
 }: {
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
-  des: string;
+  des: React.ReactNode;
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -146,7 +175,7 @@ const Card = ({
         {/* add this one for the description */}
         <p
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
-         relative z-10 mt-4 group-hover/canvas-card:text-white text-center
+         relative z-10 mt-4 group-hover/canvas-card:text-white text-left
          group-hover/canvas-card:-translate-y-2 transition duration-200"
           style={{ color: "#E4ECFF" }}
         >

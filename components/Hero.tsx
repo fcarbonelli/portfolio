@@ -42,15 +42,17 @@ const Hero = () => {
 
       <div className="flex justify-center relative mb-20 mt-10 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <img
-            src="/logopixelai.png"
-            alt="logo"
-            width={80}
-            className="object-cover object-center"
-          />
-          <p className="uppercase tracking-widest text-lg text-center text-blue-100 max-w-80">
-            Pixel AI
-          </p>
+          <div className="flex">
+            <img
+              src="/logopixelai.png"
+              alt="logo"
+              width={80}
+              className="object-cover object-center mr-3"
+            />
+            <p className="uppercase tracking-widest text-lg text-center text-blue-100 max-w-80 mt-5">
+              Pixel AI
+            </p>
+          </div>
 
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
