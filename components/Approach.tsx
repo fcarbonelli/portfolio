@@ -64,7 +64,7 @@ Marketing Campaigns: Launch community channels and targeted marketing campaigns 
           title="Q4: Optimization and Future Planning"
           icon={<AceternityIcon order="Phase 4" />}
           des="Premium Features: Introduce premium features for advanced users.
-Market Exploration: Investigate new markets and user segments.
+Freelancer Rating System: Implement a rating and review system for freelancers.
 AI Designer Collaboration: Allow AI designers to collaborate and sell their services together, adding greater diversity for brands looking to purchase."
         >
           <CanvasRevealEffect
