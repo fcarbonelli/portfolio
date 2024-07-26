@@ -64,7 +64,7 @@ Marketing Campaigns: Launch community channels and targeted marketing campaigns 
           title="Q4: Optimization and Future Planning"
           icon={<AceternityIcon order="Phase 4" />}
           des="Premium Features: Introduce premium features for advanced users.
-Freelancer Rating System: Implement a rating and review system for freelancers.
+Designer Rating System: Implement a rating and review system for designers.
 AI Designer Collaboration: Allow AI designers to collaborate and sell their services together, adding greater diversity for brands looking to purchase."
         >
           <CanvasRevealEffect
